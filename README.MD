@@ -92,7 +92,7 @@ The implemented login is a beta version that offers low security since the passw
 ## UX/UI.
 
 #### Typography ROBOTTO. [Dafont](https://www.dafont.com/es/)
-![](https://github.com/DamianPyCoder/Apps_with_Kotlin_and_Java/blob/main/DIVE_LOGBOOK/Assets/Roboto.webp)
+![](https://github.com/DamianPyCoder/Kotlin__DiveLogbookApp/blob/main/Assets/Roboto.webp)
 
 #### Color Palette.
 
