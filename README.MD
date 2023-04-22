@@ -1,10 +1,12 @@
 <a name="readme-top"></a>
 
-# APP ORIGAMI (sport control app)
+# APP WHALE SHARK (logbook)
 <!-- ABOUT THE PROJECT -->
 ## About The Project.
-Functional app that allows you to keep track of your sports activity with some additions such as a notepad in case you need to write something down while practicing sports, an api that records the weather, statistical functions and integrated services such as those offered by google maps
 
+The first time I build a mobile app, the theme has been a diving logbook that implements differents tools from a weather forecasts with an API to statistical calculations and recommendations to progress as a diver.
+
+I have not attached all the code, some parts are in a private repository. I firmly believe that developers should support and help each other, but throughout my short career I have seen many people who simply copied and pasted without stopping to understand how the program worked, what logic was implemented by the person who developed the application. For this reason, I consider that if someone wants to see the rest of the code or has questions about what i show, it is more appropriate for them to contact me so that I can help them.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -42,8 +44,8 @@ The implemented login is a beta version that offers low security since the passw
 
 
   ```sh
-  User:      admin
-  Password:  admin
+  User: admin
+  Password: admin
   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -51,7 +53,10 @@ The implemented login is a beta version that offers low security since the passw
   
 <!-- SCREENSHOTS -->
 ## Screenshots.
-
+![](https://github.com/DamianPyCoder/Apps_with_Kotlin_and_Java/blob/main/DIVE_LOGBOOK/Screenshots/1_login_empty30.jpg)
+![](https://github.com/DamianPyCoder/Apps_with_Kotlin_and_Java/blob/main/DIVE_LOGBOOK/Screenshots/3_profile30.jpg)
+![](https://github.com/DamianPyCoder/Apps_with_Kotlin_and_Java/blob/main/DIVE_LOGBOOK/Screenshots/5_logbook_addDive30.jpg)
+![](https://github.com/DamianPyCoder/Apps_with_Kotlin_and_Java/blob/main/DIVE_LOGBOOK/Screenshots/7_logbook_deleteOne30.jpg)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -62,28 +67,20 @@ The implemented login is a beta version that offers low security since the passw
 - [x] Design and organization of the app.
 - [x] Selection of color palette, fonts and other issues related to UX/UI.
 - [x] Database design.
-- [x] Create login 
-- [ ] Create user registration.
+- [x] Create login and user registration.
 - [x] Create screens with Fragments and Activities.
-- [ ] Menu in top with:
-    - [ ] Edit profile.
-    - [x] Notes with local database.
-    - [ ] User guide.
-    - [ ] LogOut.
-- [ ] Implement the Weather API.
-- [x] Implement Time running clock (from zero to up).
-- [x] Implement Chrono (from time to zero).
-- [ ] Implement music player.
-- [ ] Implement a system of statistics and analysis.
-- [ ] Implement reward system for achieving certain goals.
+- [ ] Create the documentation.
 - [ ] Multi-language Support.
     - [x] English.
     - [ ] Spanish.
     - [ ] French.
     - [ ] German.
     - [ ] Arabic.
-- [ ] Implement routes and Google maps.    
-    
+- [x] Implement the logbook form.
+- [x] Create the logbook database.
+- [x] Implement the Weather API.
+- [ ] Implement a system of statistics and analysis.
+- [ ] Last refactoring and general check.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -92,23 +89,38 @@ The implemented login is a beta version that offers low security since the passw
 ## UX/UI.
 
 #### Typography ROBOTTO. [Dafont](https://www.dafont.com/es/)
-![](https://github.com/DamianPyCoder/App_WhaleShark_withKotlin/blob/main/assets/Roboto.webp)
+![](https://github.com/DamianPyCoder/Apps_with_Kotlin_and_Java/blob/main/DIVE_LOGBOOK/Assets/Roboto.webp)
 
 #### Color Palette.
 
-
+![](https://github.com/DamianPyCoder/Apps_with_Kotlin_and_Java/blob/main/DIVE_LOGBOOK/Assets/color_003060.png)
+![](https://github.com/DamianPyCoder/Apps_with_Kotlin_and_Java/blob/main/DIVE_LOGBOOK/Assets/color_055c9d.png)
+![](https://github.com/DamianPyCoder/Apps_with_Kotlin_and_Java/blob/main/DIVE_LOGBOOK/Assets/color_68bbe3.png)
+![](https://github.com/DamianPyCoder/Apps_with_Kotlin_and_Java/blob/main/DIVE_LOGBOOK/Assets/color_68bbe3.png)
+![](https://github.com/DamianPyCoder/Apps_with_Kotlin_and_Java/blob/main/DIVE_LOGBOOK/Assets/color_cfcfcf.png)
+![](https://github.com/DamianPyCoder/Apps_with_Kotlin_and_Java/blob/main/DIVE_LOGBOOK/Assets/color_d5d5d5.png)
 
 
 #### Icon.
 
+![](https://github.com/DamianPyCoder/Apps_with_Kotlin_and_Java/blob/main/DIVE_LOGBOOK/Assets/icono.png)
 
+Autor: [Fasi](https://freeicons.io/profile/722).
 
-
+Origin: [Freeicons](https://freeicons.io/wildlife-icons/whale-icon-24639)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
+<!-- CODE NOT INCLUDED -->
+## The part of the code not included in the public repository.
+- User register.
+- Implementation of the initial screen with two fragments (login and signup).
+- Implementation of statistics, calculations, graphic representation, etc.
+- Implement the Weather API.
+- Implement the option to change the name and profile photo, with access to camera and local files.
+- The logbook form does not have the functionality of all its sections implemented, but it does implement the first one to show how to do it.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
